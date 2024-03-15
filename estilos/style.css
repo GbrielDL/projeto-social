@@ -58,3 +58,9 @@ section#redes-socias img {
 #redes-socias img:hover {
     transform: translate(-5px, -5px);
 }
+
+@media screen and (max-width: 375px) {
+    section#redes-socias img {
+        width: 20px;
+    }
+}
