@@ -1,1 +1,45 @@
 @charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    background: black url(https://img.goodfon.com/original/2560x1410/d/66/synthpop-synth-retrowave-electronic-darkwave-synth-pop-syn-4.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+section#phone {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 627px;
+    width: 311px;
+    background: transparent url(../imagens/frame-iphone.png) center center no-repeat;
+}
+
+iframe#tela {
+    position: relative;
+    border: none;
+
+    top: 80px;
+    left: 22px;
+
+    width: 267px;
+    height: 472px;
+}
